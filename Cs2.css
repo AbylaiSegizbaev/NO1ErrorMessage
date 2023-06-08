@@ -1,0 +1,93 @@
+/* Default styles for all screen sizes */
+
+header {
+  margin-top: 40px;
+  margin-left: 77px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+main {
+  display: grid;
+  margin-top: 100px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: 100px auto 0;
+  grid-gap: 100px;
+  width: 90%;
+  margin-bottom: 100px;
+}
+.texta {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+
+  /* Gray 1 */
+
+  color: #333333;
+}
+.textb {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+.textc {
+  text-align: center;
+  height: 50px;
+  width: 216px;
+
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 50px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #333333;
+}
+img {
+  width: 100%;
+}
+point {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #bdbdbd;
+}
+
+@media (max-width: 768px) {
+  header {
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+  main {
+    grid-template-columns: 1fr;
+  }
+}
